@@ -1,1 +1,1 @@
-# Pig-Latin
+# PigLatin
