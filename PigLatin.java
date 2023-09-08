@@ -12,5 +12,6 @@ public class PigLatin
             word.substring(i, i + 1); // up to but not including i + 1
         }
         //word[i];
+        //rules of pig latin: 
     }
 }
