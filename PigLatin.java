@@ -13,7 +13,7 @@ public class PigLatin
         len = phrase.length();
         String temp;
         String constant = "ay";
-        System.out.println(phrase + "" + constant);
+        System.out.println(phrase.substring(1,len) + phrase.substring(0,1) + constant);
         for(int i = 1; i < len; i++)
         {
             phrase.substring(i, i+1);
