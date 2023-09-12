@@ -12,6 +12,8 @@ public class PigLatin
         phrase = scan.nextLine();
         len = phrase.length();
         String temp;
+        String constant = "ay";
+        System.out.println(phrase + "" + constant);
         for(int i = 1; i < len; i++)
         {
             phrase.substring(i, i+1);
